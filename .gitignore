@@ -91,3 +91,7 @@ TMSWeb/
 # Private directory
 _PRIVATE/
 _PRIVE/
+
+# PHP API config files
+config-prod.inc.php
+config-dev.inc.php

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /temp
+Disallow: /stats
+Disallow: /ecrire
+Disallow: /admin
+
+User-agent: Googlebot-Image
+Disallow: /

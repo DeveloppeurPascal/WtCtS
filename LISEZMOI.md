@@ -2,9 +2,9 @@
 
 [This page in english.](README.md)
 
-**Un modèle de dépôt git pour mes projets Delphi (ou autres).**
+WtCtS (want To Cross The Street) est une application mobile pour Android diffusée exclusivement sur [Google Play](https://play.google.com/store/apps/details?id=fr.olfsoftware.wtcts.android). Elle a été développée sous Delphi dans un projet FireMonkey.
 
-**Ce template est distribué sous licence MIT. La licence AGPL est pour les projets que je crée à partir de ce template de dépôt de code. Utilisez la licence que vous voulez si vous utilisez ce template.**
+Le programme est supposé permettre le déclenchement de feux piétons lorsqu'on l'utilise à proximité d'un feu rouge compatible.
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 

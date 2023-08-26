@@ -2,9 +2,9 @@
 
 [Cette page en français.](LISEZMOI.md)
 
-**A git repository template for my Delphi (or other) projects.**
+WtCtS (Want To Cross The Street) is a mobile application for Android available exclusively on [Google Play](https://play.google.com/store/apps/details?id=fr.olfsoftware.wtcts.android). It was developed in Delphi as part of a FireMonkey project.
 
-**This template is distributed under the MIT license. The AGPL license is for the projects I create from this code repository template. Use whatever license you want if you use this template.**
+The program is supposed to trigger pedestrian lights when used near a compatible red light.
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 

@@ -12,24 +12,22 @@
 	$longitude = 0;
 	$verif = "";
 	if (isset($_GET["latitude"])) {
-		$latitude = floatval(str_replace(",",".",$_GET["latitude"]));
+		$sLati = $_GET["latitude"];
+		$latitude = floatval(str_replace(",",".",$sLati));
 	}
 	else {
 		$erreur = true;
 	}
 	if (isset($_GET["longitude"])) {
-		$longitude = floatval(str_replace(",",".",$_GET["longitude"]));
-		// print($_GET["longitude"]);
-		// print($longitude);
+		$sLongi = $_GET["longitude"];
+		$longitude = floatval(str_replace(",",".",$sLongi));
 	}
 	else {
 		$erreur = true;
 	}
 	if (isset($_GET["verif"])) {
 		require_once(__DIR__."/protected-qEcmEAy36i9wo/config.inc.php");
-		$erreur = ($_GET["verif"] != md5($latitude.$longitude.CHashCode));
-		// print($_GET["verif"]);
-		// print(md5($latitude.$longitude.CHashCode));
+		$erreur = ($_GET["verif"] != md5($sLati.$sLongi.CHashCode));
 	}
 	else {
 		$erreur = true;
